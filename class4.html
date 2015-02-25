@@ -78,14 +78,18 @@
         <section class="media-queries">
           <h2>Media Queries</h2>
           <div class="example"></div>
-          <pre><code>background-color: grey;
-@media screen and (min-width: 300px) and (max-width: 600px)
-{
-background-color: red;
+          <pre><code>body {
+  background-color: grey;
 }
-@media screen and (min-width: 900px) and (max-width: 1200px)
-{
-background-color: blue;
+@media screen and (min-width: 300px) and (max-width: 600px) {
+  body {
+    background-color: red;
+  }
+}
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+  body {
+    background-color: blue;
+  }
 }</code></pre>
           <pre class="fragment"><code>&lt;meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0"&gt;</code></pre>
         </section>
